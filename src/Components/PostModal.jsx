@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import user from "../Images/user.jpg";
-import style from "../style/PostModal.css";
 import GifModal from "./GifModal";
+import '../style/PostModal.css'
 
 
  const PostModal = () => {
@@ -48,7 +48,7 @@ import GifModal from "./GifModal";
      
   return (
     <>
-    <div className={style.input}>
+    <div className= 'input'>
         <div>
           <img src={user} alt="userImg" />
           <textarea
@@ -64,7 +64,7 @@ import GifModal from "./GifModal";
           <img src={selectedGifShow.images.downsized.url} alt="gif" />
         )}
 
-        <div className={style.boxes}>
+        <div className='boxes'>
          
           <div onClick={toggleGifSearchBox}>GIF</div>
         
@@ -72,11 +72,11 @@ import GifModal from "./GifModal";
 
         {toggleGifBox && <GifModal selectedElem={handleGifUpdate} />}
 
-        <div className={style.buttonDiv}>
+        <div className='buttonDiv'>
           <button onClick={handlePosts}>Post</button>
         </div>
       </div>
-      <div className={style.posts}>
+      <div className='posts'>
         {posts === []
           ? null
           : posts.map((post) => (

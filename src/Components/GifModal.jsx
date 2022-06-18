@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from "react";
 import { useState } from "react";
-import style from  '../style/GifModal.css'
+import  '../style/GifModal.css'
 
 const GifModal = ({selectedElem}) => {
      
@@ -27,7 +27,7 @@ const GifModal = ({selectedElem}) => {
 
 
   return (
-    <div className={style.main}>
+    <div className='main'>
         <div>
             <input type="text" onChange={handleInputChange} />
         </div>
