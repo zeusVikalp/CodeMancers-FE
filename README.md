@@ -1,6 +1,6 @@
 # Deployed Link
      
-     `https://gleaming-frangollo-d4f703.netlify.app`
+     https://gleaming-frangollo-d4f703.netlify.app
 
 # Getting Started with Create React App
 
