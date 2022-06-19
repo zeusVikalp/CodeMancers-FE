@@ -1,3 +1,7 @@
+# Deployed Link
+     
+     `https://gleaming-frangollo-d4f703.netlify.app`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
